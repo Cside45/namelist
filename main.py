@@ -30,6 +30,12 @@ def main():
     if main_menu == 5:
         print('**Now quitting Name List**')
         quit()
+    if main_menu > 5:
+        print('Please input a recognized value')
+        main()
+    if main_menu < 1:
+        print('Please input a recognized value')
+        main()
 
 
 main()
